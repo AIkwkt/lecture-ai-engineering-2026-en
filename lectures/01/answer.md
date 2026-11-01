@@ -3,8 +3,20 @@
 ## Exercises
 
 - Model's answer to the course-specific question (the 3 homework levels; a summary is fine):
+"The Week 1 homework has three levels, and you only need to complete one:
+
+Basic: Compare answers across different models or temperature settings.
+Implementation: Add follow-up questions while keeping conversation history in ask.py.
+Advanced: Measure response time and token counts, then compare models or questions and discuss free-tier rate limits."
+
 - What you noticed when comparing it with the correct meaning in the glossary:
+The AI’s answer was generally similar, but the glossary was more precise. I noticed that AI may give a confident but incomplete or incorrect explanation of course-specific terms.
+
 - Token counts you displayed (input / output):
+Question: display input and output token counts for TODO
+Changes made: 
+"[tokens] input={usage.prompt_token_count} "
+            f"output={usage.candidates_token_count}"
 
 ## Homework
 
