@@ -70,10 +70,6 @@ Question: "What is LoRA?"
     - Estimated generation API cost: [USD or `unavailable`]
 - Examples of improvements and remaining failures or limitations:
  The revised description may make the model use `search_glossary` more clearly for course-specific terms.
-  [Explain whether it improved the answer, tool selection, or evidence.]
-  [Describe any remaining incorrect answers or cases where the change did not help.]
 
 - Observations and questions:
  The tool description appears to influence whether the model selects the tool.
-  [Add what you noticed about stdio versus HTTP startup and communication.]
-  [Add any question or limitation observed during testing.]
